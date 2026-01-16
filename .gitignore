@@ -1,0 +1,4 @@
+cmse492_env/
+__pycache__/
+data/
+*.pyc
