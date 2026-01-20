@@ -15,3 +15,11 @@ python -m pip install -r requirements.txt
 * notes/ - directory for notes
 * requirements.txt - list of packages to install in virtual environment
 * src/ - directory for source code
+
+# Analysis
+Using sample data, makes a computation and visualization based on it.
+
+Location: `src/simple_analysis.py`
+
+How to run: `python src/simple_analysis.py`
+
