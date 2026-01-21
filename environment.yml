@@ -1,0 +1,10 @@
+name: day03-conda-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - numpy
+  - pandas
+  - matplotlib
+  - ipykernel
