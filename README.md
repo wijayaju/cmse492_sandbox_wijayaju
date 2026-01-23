@@ -1,18 +1,22 @@
 # Description:
 Workspace for CMSE492 assignments.
 
-# Setup venv:
+# Setup venvi (for traditional Python workflows):
 Run the following commands:
 ```
 python -m venv cmse492_env
 python -m pip install -r requirements.txt
 ```
 
-# Setup conda:
+# Setup conda (for scientific computing or if you need non-Python dependencies):
 Command to create the environment: `conda env create -f environment.yml`
 Command to activate it: `conda activate day03-conda-env`
 Command to deactivate it: `conda deactivate`
 
+# Setup uv (recommended for new users)
+Command to install uv: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+Command to sync uv to project dependencies: `uv sync`
+Command to prepend before any command (to properly utilize the environment): `uv run`
 
 # Project Structure Analysis
 * cmse492_env/ - directory for virtual environment
